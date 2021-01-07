@@ -1,8 +1,9 @@
+USER = "LongTQ"
+
 DICOM_ROOT = '~/Downloads/echo/DucTM/data/'
 # REPRESENTATION_ROOT = './../DucTM/data/' 
 REPRESENTATION_ROOT = '/media/tuan/DATA/AI-Cardio/dicom_data_20200821_map_bv/representation'
 
-USER = "LongTQ"
 
 JSON_PATH = "./data_20210101_5374_cases____{}.json".format(USER)
 

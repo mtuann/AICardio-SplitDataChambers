@@ -1,0 +1,23 @@
+1. Create new enviroment (name: label) in anaconda (miniconda):
+```conda create -n label python=3.6``` 
+2. Install requirements for label enviroments (requirements.txt file in folder src)
+```pip install -r requirements.txt``` 
+3. Before running file main.py, change the config.py file, activate label enviroments
+- Change USER variable (TuanNM/ LongTQ/ LinhLPV/ ...)
+- Change the path to REPRESENTATION_ROOT (folder data by person) and JSON_PATH (file .json contains data for each person)
+- DATA .json for each person can be found [here](https://drive.google.com/drive/folders/1qRth2nDN9CGVMMavUyLD4cD7tWfof3bh), download and copy data by USER into src/ folder
+- Activate label enviroments: ```conda activate label```
+- Run file main.py in folder /src (cd into folder src and run), data after annotated will be save in 2 files: checklist_USER.json and checklist_USER_chamber.json
+```python main.py```
+
+Chú ý làm dữ liệu: (Hằng biên soạn)
+- good : có ít nhất một 2c, một 4c
+- other : ko phải siêu âm tim
+- còn lại : bad 
+Chỉ đánh dấu những file >1 frame: đánh dấu 2C, 3C, 4C
+
+
+
+
+
+
