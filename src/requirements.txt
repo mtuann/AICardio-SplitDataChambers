@@ -1,0 +1,5 @@
+opencv-contrib-python==4.4.0.46
+PySimpleGUI==4.32.1
+tqdm==4.54.0
+imageio==2.9.0
+imageio-ffmpeg==0.4.2

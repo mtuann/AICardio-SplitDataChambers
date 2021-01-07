@@ -1,0 +1,6 @@
+src_old/
+src_clone/
+*.json
+final_version_20210106/
+*.pyc
+*__pycache__*
