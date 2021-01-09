@@ -21,7 +21,7 @@ class ButtonLayout:
             #print("LOADING annotation: {}".format(annotation))
             self.cur_case_type = self.rev_mapping.get(annotation.get("TypeData", "get_type_data_fail"), "not_view")
             self.cur_case_comments = annotation.get("Comments", "")
-            self.cur_case_chambers = annotation.get("Chambers", {})
+            self.cur_case_chambers = annotation.get("Diagnosis", {})
         else:
             self.cur_case_type = 99
             self.cur_case_comments = ""
@@ -42,7 +42,7 @@ class ButtonLayout:
             self.choose_case_button,
             [sg.HorizontalSeparator(color="blue")],
             #self.chambers,
-            # self.chambers_comment,
+            self.comment,
             self.checkbox_button,
             # self.save_button,
             #self.not_review_button

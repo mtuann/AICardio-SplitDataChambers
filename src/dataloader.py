@@ -128,7 +128,7 @@ class Database:
             if TypeData != "no_defined":
                 annotation = {
                     "TypeData" : self.mapping.get(self.case_list[self.cur_id][0][5], "not_view"),
-                    "Chambers": [],
+                    "Diagnosis": [],
                     "Comments": []
                 }
         return self.case_list[self.cur_id], case_notification, annotation
@@ -161,7 +161,7 @@ class Database:
 
         data_update = {
             "TypeData" : case_type,
-            "Chambers": chambers,
+            "Diagnosis": chambers,
             "Comments": comments
         }
 

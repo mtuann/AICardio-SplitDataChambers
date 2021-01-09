@@ -1,4 +1,4 @@
-USER = "LongTQ"
+USER = "TuanNM"
 
 DICOM_ROOT = '~/Downloads/echo/DucTM/data/'
 # REPRESENTATION_ROOT = './../DucTM/data/' 
